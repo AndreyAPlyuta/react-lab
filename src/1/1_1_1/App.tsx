@@ -1,11 +1,11 @@
 // Исправьте ошибку с импортом компонентов
-function App() {
+export default function Profile() {
     return (
-        <img
-            src="AkliluLemma.jpg"
-            alt="Aklilu Lemma"
-        />
+            <img
+                src="AkliluLemma.jpg"
+                alt="Aklilu Lemma"
+            />
     );
-  }
+}
   
   

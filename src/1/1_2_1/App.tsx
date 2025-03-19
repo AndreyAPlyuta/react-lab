@@ -8,14 +8,14 @@
 
 */
 
-import Gallery, { Profile } from "./Gallery";
-
-// Move me to Profile.js!
+import Gallery from './Gallery.tsx';
+import { Profile } from './Profile.tsx';
 
 export default function App() {
   return (
     <div>
-      <Profile />      
+      <Profile />
+      <Gallery />
     </div>
   );
 }
